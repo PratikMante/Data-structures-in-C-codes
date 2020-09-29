@@ -8,6 +8,7 @@ int main()
     printf("\nEnter a number less than n to remove soldier:");
     scanf("%d",&m);
     printf("\nEnter a number from where you wish to start:");
+    scanf("%d",&x);
     for(i=1;i<=n;i++)
     {
         j[i-1]=i;
